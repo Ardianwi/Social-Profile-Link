@@ -13,7 +13,7 @@ body {
 .container {
   width: 384px;
   height: 611px;
-  background-color: #333333;
+  background-color: #1f1f1f;
   margin: auto;
   border-radius: 12px;
   display: flex;
@@ -41,5 +41,33 @@ body {
 .title p {
   color: #c4f82a;
   font-size: 12px;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 24px;
+}
+.description p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 150;
+}
+
+.footer {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.border1 {
+  width: 304px;
+  height: 45px;
+  background-color: #333333;
+  border-radius: 8px;
+  border: none;
+  margin-top: 16px;
+}
+
+.border1 p {
+  color: #ffffff;
   font-weight: bold;
 }
