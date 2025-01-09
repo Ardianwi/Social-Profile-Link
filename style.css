@@ -50,10 +50,10 @@ body {
   margin-top: 25px;
   box-sizing: border-box;
 }
-.description p {
+.description {
   color: white;
   font-size: 14px;
-  font-weight: 150;
+  font-weight: 150%;
 }
 
 .footer {
