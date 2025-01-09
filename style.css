@@ -31,6 +31,7 @@ body {
 .title {
   margin-top: 24px;
   text-align: center;
+  line-height: 150%;
 }
 
 .title h1 {
@@ -40,7 +41,7 @@ body {
 
 .title p {
   color: #c4f82a;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -65,9 +66,25 @@ body {
   border-radius: 8px;
   border: none;
   margin-top: 16px;
-}
-
-.border1 {
+  font-size: 14px;
   color: #ffffff;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.border1 a {
+  width: 304px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: #333333;
+  display: inline-block;
+  text-align: center;
+  line-height: 45px;
+  text-decoration: none;
+  color: white;
+}
+
+.border1 a:hover {
+  background-color: #c4f82a;
+  color: black;
 }
