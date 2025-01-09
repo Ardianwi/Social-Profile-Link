@@ -59,9 +59,13 @@ body {
 .footer {
   margin-top: 9px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
 }
 
-.border1 {
+.footer .button {
+  display: inline-block;
   width: 304px;
   height: 45px;
   background-color: #333333;
@@ -72,9 +76,10 @@ body {
   color: #ffffff;
   font-weight: bold;
   cursor: pointer;
+  line-height: 45px;
 }
 
-.border1 a {
+.footer a {
   width: 304px;
   height: 45px;
   border-radius: 8px;
@@ -82,11 +87,11 @@ body {
   display: inline-block;
   text-align: center;
   line-height: 45px;
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
 
-.border1 a:hover {
+.footer a:hover {
   background-color: #c4f82a;
   color: black;
 }
