@@ -43,10 +43,12 @@ body {
   color: #c4f82a;
   font-size: 14px;
   font-weight: bold;
+  margin-top: 4px;
 }
 
 .description {
   margin-top: 24px;
+  box-sizing: border-box;
 }
 .description p {
   color: #ffffff;
